@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c11
 
 NAME = my_libc.a
 
-SRC = my_strlen.c
+SRC = my_strlen.c my_strcpy.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
@@ -21,3 +21,4 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
