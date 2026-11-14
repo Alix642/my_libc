@@ -1,2 +1,5 @@
 *.o
 *.a
+main.c
+test
+output/
